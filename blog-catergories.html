@@ -13,7 +13,7 @@
 <meta name="creation_Date" content="02/12/2021" />
 <meta name="expires" content="" />
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-<title>Premier Agent | Property Comments</title>
+<title>Premier Agent | Blog Catergories</title>
 
 <!--StyleSheet-->
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
@@ -257,11 +257,12 @@
       
       <!-- PAGE-HEADER -->
       <div class="page-header">
-        <h1 class="page-title">Property Comments Management</h1>
+        <h1 class="page-title">Catergories Management</h1>
         <div>
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Property Comments</li>
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="blog.html">Blog</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Catergories</li>
           </ol>
         </div>
       </div>
@@ -272,7 +273,12 @@
         <div class="col-lg-12">
           <div class="card">
             <div class="card-header cardheader-center">
-              <h3 class="card-title">Property Comments</h3>
+              <h3 class="card-title">Catergories</h3>
+              <div class="float-end btnlist">
+                <ul>
+                  <li><button data-bs-toggle="modal" href="#addcatergory" class="btn btn-blue btn-block" >Add Catergory</button></li>
+                </ul>
+              </div>
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -280,168 +286,57 @@
                   <thead>
                     <tr>
                       <th class="border-bottom-0">S.No</th>
-                      <th class="border-bottom-0">Date</th>
-                      <th class="border-bottom-0">Comment</th>
-                      <th class="border-bottom-0">Project</th>
-                      <th class="border-bottom-0">By</th>
-                      <th class="border-bottom-0">Actions</th>
+                      <th class="border-bottom-0">Title</th>
+                      <th class="border-bottom-0">Details</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>1</td>
-                      <td>22-07-2022</td>
-                      <td>Real Estate Joint Venture in Kenya: Top Ten Real Estate Hotspots offering highest returns</td>
-                      <td><button type="button" class="btn btn-icon viewreview-btn btn-primary"><i class="icofont-eye-alt"></i> View</button></td>
-                      <td>Simon Agent</td>
+                      <td>House for sale </td>
                       <td><div class="btn-list table-btns">
-                          <!-- <button type="button" class="btn btn-icon btn-primary" data-toggle="tooltip" data-placement="top" title="View"><i class="icofont-eye-alt"></i></button> -->
-                          <button type="button" class="btn btn-icon btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="icofont-ui-delete"></i></button>
-                          <button type="button" class="btn btn-icon btn-success" data-toggle="tooltip" data-placement="top" title="Edit"><i class="icofont-edit"></i></button>
-                          <button type="button" class="btn btn-icon btn-warning" data-toggle="tooltip" data-placement="top" title="Block"><i class="icofont-ui-block"></i></button>
+                          <button type="button" class="btn btn-icon  btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="icofont-ui-delete"></i></button>
+                          <button type="button" class="btn btn-icon  btn-success" data-toggle="tooltip" data-placement="top" title="Edit"><i class="icofont-edit"></i></button>
                         </div></td>
                     </tr>
                     <tr>
-                      <td>2</td>
-                      <td>22-07-2022</td>
+                      <td>1</td>
                       <td>Real Estate Joint Venture in Kenya: Top Ten Real Estate Hotspots offering highest returns</td>
-                      <td><button type="button" class="btn btn-icon viewreview-btn btn-primary"><i class="icofont-eye-alt"></i> View</button></td>
-                      <td>Simon Agent</td>
                       <td><div class="btn-list table-btns">
-                          <!-- <button type="button" class="btn btn-icon btn-primary" data-toggle="tooltip" data-placement="top" title="View"><i class="icofont-eye-alt"></i></button> -->
-                          <button type="button" class="btn btn-icon btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="icofont-ui-delete"></i></button>
-                          <button type="button" class="btn btn-icon btn-success" data-toggle="tooltip" data-placement="top" title="Edit"><i class="icofont-edit"></i></button>
-                          <button type="button" class="btn btn-icon btn-warning" data-toggle="tooltip" data-placement="top" title="Block"><i class="icofont-ui-block"></i></button>
+                          <button type="button" class="btn btn-icon  btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="icofont-ui-delete"></i></button>
+                          <button type="button" class="btn btn-icon  btn-success" data-toggle="tooltip" data-placement="top" title="Edit"><i class="icofont-edit"></i></button>
                         </div></td>
                     </tr>
                     <tr>
-                      <td>3</td>
-                      <td>22-07-2022</td>
+                      <td>1</td>
                       <td>Real Estate Joint Venture in Kenya: Top Ten Real Estate Hotspots offering highest returns</td>
-                      <td><button type="button" class="btn btn-icon viewreview-btn btn-primary"><i class="icofont-eye-alt"></i> View</button></td>
-                      <td>Simon Agent</td>
                       <td><div class="btn-list table-btns">
-                          <!-- <button type="button" class="btn btn-icon btn-primary" data-toggle="tooltip" data-placement="top" title="View"><i class="icofont-eye-alt"></i></button> -->
-                          <button type="button" class="btn btn-icon btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="icofont-ui-delete"></i></button>
-                          <button type="button" class="btn btn-icon btn-success" data-toggle="tooltip" data-placement="top" title="Edit"><i class="icofont-edit"></i></button>
-                          <button type="button" class="btn btn-icon btn-warning" data-toggle="tooltip" data-placement="top" title="Block"><i class="icofont-ui-block"></i></button>
+                          <button type="button" class="btn btn-icon  btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="icofont-ui-delete"></i></button>
+                          <button type="button" class="btn btn-icon  btn-success" data-toggle="tooltip" data-placement="top" title="Edit"><i class="icofont-edit"></i></button>
                         </div></td>
                     </tr>
                     <tr>
-                      <td>4</td>
-                      <td>22-07-2022</td>
+                      <td>1</td>
                       <td>Real Estate Joint Venture in Kenya: Top Ten Real Estate Hotspots offering highest returns</td>
-                      <td><button type="button" class="btn btn-icon viewreview-btn btn-primary"><i class="icofont-eye-alt"></i> View</button></td>
-                      <td>Simon Agent</td>
                       <td><div class="btn-list table-btns">
-                          <!-- <button type="button" class="btn btn-icon btn-primary" data-toggle="tooltip" data-placement="top" title="View"><i class="icofont-eye-alt"></i></button> -->
-                          <button type="button" class="btn btn-icon btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="icofont-ui-delete"></i></button>
-                          <button type="button" class="btn btn-icon btn-success" data-toggle="tooltip" data-placement="top" title="Edit"><i class="icofont-edit"></i></button>
-                          <button type="button" class="btn btn-icon btn-warning" data-toggle="tooltip" data-placement="top" title="Block"><i class="icofont-ui-block"></i></button>
+                          <button type="button" class="btn btn-icon  btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="icofont-ui-delete"></i></button>
+                          <button type="button" class="btn btn-icon  btn-success" data-toggle="tooltip" data-placement="top" title="Edit"><i class="icofont-edit"></i></button>
                         </div></td>
                     </tr>
                     <tr>
-                      <td>5</td>
-                      <td>22-07-2022</td>
+                      <td>1</td>
                       <td>Real Estate Joint Venture in Kenya: Top Ten Real Estate Hotspots offering highest returns</td>
-                      <td><button type="button" class="btn btn-icon viewreview-btn btn-primary"><i class="icofont-eye-alt"></i> View</button></td>
-                      <td>Simon Agent</td>
                       <td><div class="btn-list table-btns">
-                          <!-- <button type="button" class="btn btn-icon btn-primary" data-toggle="tooltip" data-placement="top" title="View"><i class="icofont-eye-alt"></i></button> -->
-                          <button type="button" class="btn btn-icon btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="icofont-ui-delete"></i></button>
-                          <button type="button" class="btn btn-icon btn-success" data-toggle="tooltip" data-placement="top" title="Edit"><i class="icofont-edit"></i></button>
-                          <button type="button" class="btn btn-icon btn-warning" data-toggle="tooltip" data-placement="top" title="Block"><i class="icofont-ui-block"></i></button>
+                          <button type="button" class="btn btn-icon  btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="icofont-ui-delete"></i></button>
+                          <button type="button" class="btn btn-icon  btn-success" data-toggle="tooltip" data-placement="top" title="Edit"><i class="icofont-edit"></i></button>
                         </div></td>
                     </tr>
                     <tr>
-                      <td>6</td>
-                      <td>22-07-2022</td>
+                      <td>1</td>
                       <td>Real Estate Joint Venture in Kenya: Top Ten Real Estate Hotspots offering highest returns</td>
-                      <td><button type="button" class="btn btn-icon viewreview-btn btn-primary"><i class="icofont-eye-alt"></i> View</button></td>
-                      <td>Simon Agent</td>
                       <td><div class="btn-list table-btns">
-                          <!-- <button type="button" class="btn btn-icon btn-primary" data-toggle="tooltip" data-placement="top" title="View"><i class="icofont-eye-alt"></i></button> -->
-                          <button type="button" class="btn btn-icon btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="icofont-ui-delete"></i></button>
-                          <button type="button" class="btn btn-icon btn-success" data-toggle="tooltip" data-placement="top" title="Edit"><i class="icofont-edit"></i></button>
-                          <button type="button" class="btn btn-icon btn-warning" data-toggle="tooltip" data-placement="top" title="Block"><i class="icofont-ui-block"></i></button>
-                        </div></td>
-                    </tr>
-                    <tr>
-                      <td>7</td>
-                      <td>22-07-2022</td>
-                      <td>Real Estate Joint Venture in Kenya: Top Ten Real Estate Hotspots offering highest returns</td>
-                      <td><button type="button" class="btn btn-icon viewreview-btn btn-primary"><i class="icofont-eye-alt"></i> View</button></td>
-                      <td>Simon Agent</td>
-                      <td><div class="btn-list table-btns">
-                          <!-- <button type="button" class="btn btn-icon btn-primary" data-toggle="tooltip" data-placement="top" title="View"><i class="icofont-eye-alt"></i></button> -->
-                          <button type="button" class="btn btn-icon btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="icofont-ui-delete"></i></button>
-                          <button type="button" class="btn btn-icon btn-success" data-toggle="tooltip" data-placement="top" title="Edit"><i class="icofont-edit"></i></button>
-                          <button type="button" class="btn btn-icon btn-warning" data-toggle="tooltip" data-placement="top" title="Block"><i class="icofont-ui-block"></i></button>
-                        </div></td>
-                    </tr>
-                    <tr>
-                      <td>8</td>
-                      <td>22-07-2022</td>
-                      <td>Real Estate Joint Venture in Kenya: Top Ten Real Estate Hotspots offering highest returns</td>
-                      <td><button type="button" class="btn btn-icon viewreview-btn btn-primary"><i class="icofont-eye-alt"></i> View</button></td>
-                      <td>Simon Agent</td>
-                      <td><div class="btn-list table-btns">
-                          <!-- <button type="button" class="btn btn-icon btn-primary" data-toggle="tooltip" data-placement="top" title="View"><i class="icofont-eye-alt"></i></button> -->
-                          <button type="button" class="btn btn-icon btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="icofont-ui-delete"></i></button>
-                          <button type="button" class="btn btn-icon btn-success" data-toggle="tooltip" data-placement="top" title="Edit"><i class="icofont-edit"></i></button>
-                          <button type="button" class="btn btn-icon btn-warning" data-toggle="tooltip" data-placement="top" title="Block"><i class="icofont-ui-block"></i></button>
-                        </div></td>
-                    </tr>
-                    <tr>
-                      <td>9</td>
-                      <td>22-07-2022</td>
-                      <td>Real Estate Joint Venture in Kenya: Top Ten Real Estate Hotspots offering highest returns</td>
-                      <td><button type="button" class="btn btn-icon viewreview-btn btn-primary"><i class="icofont-eye-alt"></i> View</button></td>
-                      <td>Simon Agent</td>
-                      <td><div class="btn-list table-btns">
-                          <!-- <button type="button" class="btn btn-icon btn-primary" data-toggle="tooltip" data-placement="top" title="View"><i class="icofont-eye-alt"></i></button> -->
-                          <button type="button" class="btn btn-icon btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="icofont-ui-delete"></i></button>
-                          <button type="button" class="btn btn-icon btn-success" data-toggle="tooltip" data-placement="top" title="Edit"><i class="icofont-edit"></i></button>
-                          <button type="button" class="btn btn-icon btn-warning" data-toggle="tooltip" data-placement="top" title="Block"><i class="icofont-ui-block"></i></button>
-                        </div></td>
-                    </tr>
-                    <tr>
-                      <td>10</td>
-                      <td>22-07-2022</td>
-                      <td>Real Estate Joint Venture in Kenya: Top Ten Real Estate Hotspots offering highest returns</td>
-                      <td><button type="button" class="btn btn-icon viewreview-btn btn-primary"><i class="icofont-eye-alt"></i> View</button></td>
-                      <td>Simon Agent</td>
-                      <td><div class="btn-list table-btns">
-                          <!-- <button type="button" class="btn btn-icon btn-primary" data-toggle="tooltip" data-placement="top" title="View"><i class="icofont-eye-alt"></i></button> -->
-                          <button type="button" class="btn btn-icon btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="icofont-ui-delete"></i></button>
-                          <button type="button" class="btn btn-icon btn-success" data-toggle="tooltip" data-placement="top" title="Edit"><i class="icofont-edit"></i></button>
-                          <button type="button" class="btn btn-icon btn-warning" data-toggle="tooltip" data-placement="top" title="Block"><i class="icofont-ui-block"></i></button>
-                        </div></td>
-                    </tr>
-                    <tr>
-                      <td>11</td>
-                      <td>22-07-2022</td>
-                      <td>Real Estate Joint Venture in Kenya: Top Ten Real Estate Hotspots offering highest returns</td>
-                      <td><button type="button" class="btn btn-icon viewreview-btn btn-primary"><i class="icofont-eye-alt"></i> View</button></td>
-                      <td>Simon Agent</td>
-                      <td><div class="btn-list table-btns">
-                          <!-- <button type="button" class="btn btn-icon btn-primary" data-toggle="tooltip" data-placement="top" title="View"><i class="icofont-eye-alt"></i></button> -->
-                          <button type="button" class="btn btn-icon btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="icofont-ui-delete"></i></button>
-                          <button type="button" class="btn btn-icon btn-success" data-toggle="tooltip" data-placement="top" title="Edit"><i class="icofont-edit"></i></button>
-                          <button type="button" class="btn btn-icon btn-warning" data-toggle="tooltip" data-placement="top" title="Block"><i class="icofont-ui-block"></i></button>
-                        </div></td>
-                    </tr>
-                    <tr>
-                      <td>12</td>
-                      <td>22-07-2022</td>
-                      <td>Real Estate Joint Venture in Kenya: Top Ten Real Estate Hotspots offering highest returns</td>
-                      <td><button type="button" class="btn btn-icon viewreview-btn btn-primary"><i class="icofont-eye-alt"></i> View</button></td>
-                      <td>Simon Agent</td>
-                      <td><div class="btn-list table-btns">
-                          <!-- <button type="button" class="btn btn-icon btn-primary" data-toggle="tooltip" data-placement="top" title="View"><i class="icofont-eye-alt"></i></button> -->
-                          <button type="button" class="btn btn-icon btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="icofont-ui-delete"></i></button>
-                          <button type="button" class="btn btn-icon btn-success" data-toggle="tooltip" data-placement="top" title="Edit"><i class="icofont-edit"></i></button>
-                          <button type="button" class="btn btn-icon btn-warning" data-toggle="tooltip" data-placement="top" title="Block"><i class="icofont-ui-block"></i></button>
+                          <button type="button" class="btn btn-icon  btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="icofont-ui-delete"></i></button>
+                          <button type="button" class="btn btn-icon  btn-success" data-toggle="tooltip" data-placement="top" title="Edit"><i class="icofont-edit"></i></button>
                         </div></td>
                     </tr>
                   </tbody>
@@ -492,6 +387,28 @@
     </div>
   </div>
 </footer>
+
+<div class="modal fade" id="addcatergory" aria-hidden="true" aria-labelledby="addcatergoryLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel">Create new category</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="CategorynameInput" class="form-label">Name</label>
+          <input type="email" class="form-control" id="CategorynameInput" placeholder="Category Name">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary">Post</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 
 <!-- jQuery -->
